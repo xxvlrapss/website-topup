@@ -1,4 +1,4 @@
-import GameItem from '../molecules/GameItem'
+import GameItem from '../../molecules/GameItem'
 export default function FeaturedGame() {
 	return (
 		<section className='featured-game pt-50 pb-50'>

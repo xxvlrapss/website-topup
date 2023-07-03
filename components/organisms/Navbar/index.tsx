@@ -16,9 +16,9 @@ export default function Navbar() {
 						<ul className='navbar-nav ms-auto text-lg gap-lg-0 gap-2'>
 							<Menu title='Home' active />
 							<Menu title='Games' href='/games' />
-							<Menu title='Reward' />
-							<Menu title='Discover' />
-							<Menu title='Global Rank' />
+							<Menu title='Reward' href='/reward' />
+							<Menu title='Discover' href='discover' />
+							<Menu title='Global Rank' href='global rank' />
 							<Auth isLogin />
 						</ul>
 					</div>

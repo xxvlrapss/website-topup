@@ -5,7 +5,7 @@ interface TableRowProps {
 	categori: string
 	item: number
 	price: number
-	status: 'Pending' | 'Success' | 'Failed'
+	status: 'pending' | 'Success' | 'failed'
 	image: string
 }
 

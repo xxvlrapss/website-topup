@@ -58,7 +58,7 @@ export default function OverviewContent() {
 									categori='Desktop'
 									item={550}
 									price={740000}
-									status='Success'
+									status='success'
 								/>
 								<TableRow
 									image='overview-3'

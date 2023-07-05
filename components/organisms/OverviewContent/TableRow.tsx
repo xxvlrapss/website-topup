@@ -5,7 +5,7 @@ interface TableRowProps {
 	categori: string
 	item: number
 	price: number
-	status: 'pending' | 'Success' | 'failed'
+	status: 'pending' | 'success' | 'failed'
 	image: string
 }
 
@@ -14,7 +14,7 @@ export default function TableRow(props: TableRowProps) {
 	const statusClass = cx({
 		'float-start icon-status': true,
 		pending: status === 'pending',
-		success: status === 'Success',
+		success: status === 'success',
 		failed: status === 'failed',
 	})
 	return (

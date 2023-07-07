@@ -50,7 +50,7 @@ export default function OverviewContent() {
 									categori='Desktop'
 									item={200}
 									price={290000}
-									status='pending'
+									status='Pending'
 								/>
 								<TableRow
 									image='overview-2'
@@ -58,7 +58,7 @@ export default function OverviewContent() {
 									categori='Desktop'
 									item={550}
 									price={740000}
-									status='success'
+									status='Success'
 								/>
 								<TableRow
 									image='overview-3'
@@ -66,7 +66,7 @@ export default function OverviewContent() {
 									categori='Mobile'
 									item={100}
 									price={120000}
-									status='failed'
+									status='Failed'
 								/>
 								<TableRow
 									image='overview-4'
@@ -74,7 +74,7 @@ export default function OverviewContent() {
 									categori='Mobile'
 									item={100}
 									price={120000}
-									status='failed'
+									status='Failed'
 								/>
 								<TableRow
 									image='overview-5'
@@ -82,7 +82,7 @@ export default function OverviewContent() {
 									categori='Desktop'
 									item={200}
 									price={290000}
-									status='pending'
+									status='Pending'
 								/>
 							</tbody>
 						</table>

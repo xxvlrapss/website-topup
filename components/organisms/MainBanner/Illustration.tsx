@@ -24,11 +24,11 @@ export default function Illustration() {
 							</div>
 						</div>
 						<div className='d-flex gap-2'>
-							<Image src='/icon/star.svg' width={24} height={22} />
-							<Image src='/icon/star.svg' width={24} height={22} />
-							<Image src='/icon/star.svg' width={24} height={22} />
-							<Image src='/icon/star.svg' width={24} height={22} />
-							<Image src='/icon/star.svg' width={24} height={22} />
+							<Image src='/icon/star.svg' alt='' width={24} height={22} />
+							<Image src='/icon/star.svg' alt='' width={24} height={22} />
+							<Image src='/icon/star.svg' alt='' width={24} height={22} />
+							<Image src='/icon/star.svg' alt='' width={24} height={22} />
+							<Image src='/icon/star.svg' alt='' width={24} height={22} />
 						</div>
 					</div>
 					<div className='card right-card position-absolute border-0'>

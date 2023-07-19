@@ -23,7 +23,7 @@ export default function EditProfile() {
 									</div>
 								</div>
 								<div className='image-upload'>
-									<label for='avatar'>
+									<label htmlFor='avatar'>
 										<img
 											src='/icon/upload.svg'
 											alt='icon upload'

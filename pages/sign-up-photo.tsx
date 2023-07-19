@@ -8,7 +8,7 @@ export default function SignUpPhoto() {
 						<div>
 							<div className='mb-20'>
 								<div className='image-upload text-center'>
-									<label for='avatar'>
+									<label htmlFor='avatar'>
 										<Image
 											src='/icon/upload.svg'
 											width={120}
@@ -32,7 +32,7 @@ export default function SignUpPhoto() {
 							</p>
 							<div className='pt-50 pb-50'>
 								<label
-									for='category'
+									htmlFor='category'
 									className='form-label text-lg fw-medium color-palette-1 mb-10'>
 									Favorite Game
 								</label>

@@ -30,7 +30,7 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
 				<Image src={`/icon/${icon}.svg`} alt='' width={25} height={25} />
 			</div>
 			<p className='item-title m-0'>
-				<Link legacyBehavior Url={href}>
+				<Link legacyBehavior href={href}>
 					<a className='text-lg text-decoration-none'>{title}</a>
 				</Link>
 			</p>
